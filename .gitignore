@@ -3,6 +3,10 @@ complie_file/
 *.o
 *.out
 
+# 폴더 안에 있는 컴파일된 실행 파일
+*.o
+*.out
+
 # OS/에디터 관련 잡파일
 .DS_Store
 *.swp
