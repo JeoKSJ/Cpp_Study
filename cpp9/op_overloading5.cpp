@@ -23,7 +23,7 @@ public:
         return Point(x * n, y * n);
     }
 
-    Point operator++(){         // 전위: ++a
+    Point& operator++(){         // 전위: ++a
         x++;
         y++;
         return *this;           // 올린 뒤에 자기 자신을 반환
