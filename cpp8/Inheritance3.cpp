@@ -25,7 +25,7 @@ public:
 
 class Cat : public Animal {
 public:
-    Dog(string n) : Animal(n) {}
+    Cat(string n) : Animal(n) {}
     
     void makeSound() {
         cout << name << ": 야옹!" << endl;
